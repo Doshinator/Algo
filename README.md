@@ -3,7 +3,7 @@ algorithms
 
 MasterMethod calculator.
 
-Make a MasterMethod object with a constructor string argument.
+Solves recurrence relation using master method in the form of aT(n/b) + f(n)pow(x) , where a and b are int, and the polynomial f(n)'s power, x, is an int. 
 
 
     MasterMethod m3("7T(9n/2) + n^2");
